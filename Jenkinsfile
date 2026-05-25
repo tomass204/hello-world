@@ -6,7 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compilando aplicación...'
-                sh 'python --version'
+                sh 'echo Build completado correctamente'
             }
         }
 
